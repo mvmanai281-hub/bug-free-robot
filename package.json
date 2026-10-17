@@ -1,0 +1,16 @@
+{
+  "name": "bug-free-robot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal Node.js website for cloud development.",
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11 <12"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  }
+}
